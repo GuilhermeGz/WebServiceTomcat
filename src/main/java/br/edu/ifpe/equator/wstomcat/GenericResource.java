@@ -36,10 +36,9 @@ public class GenericResource {
      * @return an instance of java.lang.String
      */
     @GET
-    @Produces(MediaType.APPLICATION_XML)
-    public String getXml() {
-        //TODO return proper representation object
-        throw new UnsupportedOperationException();
+    @Produces("aplication/text")
+    public String getJson() {
+       return "Servidor WS Rest";
     }
 
     /**

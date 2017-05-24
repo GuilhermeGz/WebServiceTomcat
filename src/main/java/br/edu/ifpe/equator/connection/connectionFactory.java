@@ -60,13 +60,6 @@ public class connectionFactory {
             }
         }
         closeConnection(com, stmt);
-    }
-    
-    
-    
-    
-    
-    
-    
+    }    
     
 }
